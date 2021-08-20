@@ -1,31 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Dream Vacation</title>
-</head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Triniti Productions</title>
+ </head>
 <body>
-    <div class="banner">
-      <div class="navbar">
-        <img src="/images/logo.png" class="logo" alt="travel company logo">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="https://www.hotels.com/">Hotels</a></li>
-          <li><a href="https://www.marriott.com/hotels/travel/mlewh-w-maldives/">Destination</a></li>
-          <li><a href="https://www.hertz.com/?ds_rl=1262968&gclid=EAIaIQobChMInp-T7-ys8gIV4zo4Ch1cTw70EAAYAiAAEgLmH_D_BwE&gclsrc=aw.ds">Rentals</a></li>
-        </ul>
-      </div>
-      <div class="content">
-        <h1>Your Dream Vacation Awaits!</h1>
-        <p>what are you waiting for book now!</p>
+  <!--Header-->
+<header id="header-home">
+  <video class="video" src="img/motion-particles-7M6YB2T.mp4" muted loop autoplay></video>
+  <div class="container">
+    <nav id="main-nav">
+      <img src="img/items/logo.png" alt="Triniti Productions Logo" id="logo">
+      <ul>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-content">
+      <h1>I Am A <span class="txt-type" data-wait="300" data-words='["Graphic Designer","UI/UX Designer", "Web Dev"]'></span></h1>
+      <a href="work.html" class="btn-light">View My Projects</a>
+    </div>
+  </div>
+</header>
+
+<section id="home-a" class="text-center py-5">
+  <div class="container">
+    <div class="parallax"></div>
+    <h2 class="section-title">My Expertise Are</h2>
+    <div class="bottom-line1"></div>
+      <p class="lead">
+       Graphic Design, UI/UX design and Web Dev.
+      </p>
+      <div class="specials">
         <div>
-          <button type="button"><span></span>Book Now</button>
+          <i class="fas fa-file-alt fa-2x"></i>
+          <h3>Concepting</h3>
+          <p>This step is the first step in my workflow where I throw all the ideas that the client and myself have gathered and
+          start to make different prototypes or models. </p>
+        </div>
+        <div>
+          <i class="fas fa-pen-nib fa-2x"></i>
+          <h3>Graphic Design</h3>
+          <p>addressing a client's unique problem with a very specific and effective solution. Anything from logos, branding, posters,brochures, magazines, printing, business.</p>
+        </div>
+        <div>
+          <i class="fas fa-desktop fa-2x"></i>
+          <h3>UI/UX</h3>
+          <p>Creating clean, user-friendly, and beautiful interfaces that help and enable users to understand how to use complex
+          technical products. </p>
+        </div>
+        <div>
+          <i class="fas fa-code fa-2x"></i>
+          <h3>Web Dev</h3>
+          <p> Constructing the layout of a website, creating a visually interesting home page and user-friendly design to match the clients needs. </p>
         </div>
       </div>
-     
-    
+  </div>
+</section>
+
+<section id="home-b" class="text-center py-2">
+  <div class="stats">
+    <div>
+      <ul>
+        <li><i class="fas fa-users fa-3x"></i></li>
+        <li class="stats-title">Clients</li>
+        <li class="stats-number">15</li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li><i class="fas fa-pencil-ruler fa-3x"></i></li>
+        <li class="stats-title">Graphic Design Projects</li>
+        <li class="stats-number">10</li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li><i class="fas fa-desktop fa-3x"></i></li>
+        <li class="stats-title">UI/UX Projects</li>
+        <li class="stats-number">2</li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li><i class="fas fa-laptop-code fa-3x"></i></li>
+        <li class="stats-title">Web Dev Projects</li>
+        <li class="stats-number">3</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="home-c" class="text-center py-2">
+  <div class="container">
+    <h2 class="section-title">
+      My Creative Process
+    </h2>
+    <div class="bottom-line2"></div>
+    <p class="lead">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae officia quidem quo quis exercitationem cupiditate.
+    </p>
+    <div class="process">
+      <div>
+        <i class="fas fa-file-alt fa-3x process-icon my-2">
+          <div class="process-step">1</div>
+        </i>
+        <h3>Creative Brief</h3>
+        <p> In this step I Align around clear goals
+        Bring consistency and structure to the creative process
+        Document key details needed to work efficiently
+        Define the elements of the client and 
+        Capture exactly what must be delivered</p>
+      </div>
+      <div>
+        <i class="fas fa-desktop fa-3x process-icon my-2">
+          <div class="process-step">2</div>
+        </i>
+        <h3>Research</h3>
+        <p>As a result of my previous step, I gathered as many details as I can and started thinking about it, creating moodboards,
+        sketches, and any other tools that will help me bring it to life and guide it in the right direction.</p>
+      </div>
+      <div>
+        <i class="fas fa-stream fa-3x process-icon my-2">
+          <div class="process-step">3</div>
+        </i>
+        <h3>Prototype</h3>
+        <p>With all the details gathered and a general idea of where I'm going, I translate it into tangible forms, digital prototypes that accurately capture design concepts and allow for user testing.</p>
+      </div>
+      <div>
+        <i class="fas fa-handshake fa-3x process-icon my-2">
+          <div class="process-step">4</div>
+        </i>
+        <h3>Refine/Deliver</h3>
+        <p>During this final step I make any necessary adjustments from the data I gathered during the previous step and prepare a
+        ready-to-deliver product.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="main-footer">
+  <div class="footer-content container">
+    <p> &copy;Triniti Productions 2021. All rights Reserved</p>
+    <div class="social">
+      <i class="fab fa-twitter" ></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-linkedin"></i>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<script src="js/typewriter.js"></script>
+  
 </body>
 </html>
