@@ -1,3 +1,5 @@
+/*
+
 console.log("did it work?")
 
 var countDownDate = new Date("Nov 30, 2021 18:00:00").getTime();
@@ -23,4 +25,5 @@ var distance = countDownDate - now;
   }
 }, 1000); 
 
+*/
 
