@@ -11,13 +11,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/work.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <title>My Work</title>
 </head>
 
 <body>
   
   <header id="header-inner">
-    <div class="container">
       <nav id="main-nav">
         <img src="img/items/logo.png" alt="Triniti Productions Logo" id="logo">
         <ul>
@@ -30,8 +31,6 @@
           -->
         </ul>
       </nav>
-
-    </div>
   </header>
 
   <section id="work-a" class="text-center py-3">
@@ -41,32 +40,36 @@
       <p class="lead">
         Check out my most recent projects
       </p>
+      <button class="btn-light" onclick="onlygraphicdesign()">Graphic Design</button>
+      <button class="btn-light" onclick="onlyuxui()">UI/UX</button>
+      <button class="btn-light" onclick="onlywebsites()">Websites</button>
+
       <div class="gallery">
-        <div class="gallery-item">
+        <div class="gallery-item graphic-design">
           <img class="gallery-img" src="img/items/CFDS_Logo.jpg" alt="logo">
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item graphic-design">
           <img class="gallery-img" src="img/items/Wolf.png" alt="logo">
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item graphic-design">
           <img class="gallery-img" src="img/items/KM_logo.jpg" alt="logo">
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item graphic-design">
           <img class="gallery-img" src="img/items/Herbivore_logo.jpg" alt="logo">
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item ui-ux">
           <img class="gallery-img" src="img/items/Avengers.jpeg" alt="logo">
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item ui-ux">
           <img class="gallery-img" src="img/items/dino.jpg" alt="logo">
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item website">
           <img class="gallery-img" src="img/items/I_see_you.jpg" alt="logo">
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item website">
           <img class="gallery-img" src="img/items/Radioactive.jpg" alt="logo">
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item web-dev">
           <img class="gallery-img" src="img/items/it.jpg" alt="logo">
         </div>
       </div>
@@ -77,7 +80,7 @@
 
   <footer id="main-footer">
     <div class="footer-content container">
-      <p> &copy;Triniti Productions 2021. All rights Reserved</p>
+      
       <div class="social">
         <i class="fab fa-twitter"></i>
         <i class="fab fa-instagram"></i>
@@ -86,6 +89,8 @@
       </div>
     </div>
   </footer>
+
+  <script type="text/javascript" src="js/filter.js"></script>
 
 
 

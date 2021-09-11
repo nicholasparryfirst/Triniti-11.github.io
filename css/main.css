@@ -83,7 +83,7 @@ input[class^="btn"]:hover {
 .section-title {
 	font-size: 2rem;
 	display: block;
-	padding-bottom: 0.5rem;
+	padding-top: 3rem;
 	text-align: center;
 	font-weight: 100;
 	text-transform: uppercase;
@@ -102,7 +102,9 @@ input[class^="btn"]:hover {
 	width: 3rem;
 	background-color: #17aef0;
 	display: block;
-	margin: 0 auto 1rem auto;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .bg-main {
@@ -115,8 +117,6 @@ input[class^="btn"]:hover {
 
 * {
 	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
 }
 
 body {
@@ -124,11 +124,8 @@ body {
 	line-height: 1.6;
 	background: #000;
 	color: #fff;
-	background-image: url(../img/items/Radioactive.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width:100%;
+	padding: 0;
+	margin: 0;
 }
 
 a {
@@ -149,18 +146,25 @@ h4 {
 img {
 	width: 100%;
 }
-}
 
 #main-nav {
+	padding: 1rem;
 	display: flex;
 	justify-content: space-between;
-	padding: 1rem;
+	align-items: center;
+	top: 0px;
 	position: fixed;
+	background-color: rgb(3, 3, 3);
+	width: 100%;
+	height: 70px;
 }
 #main-nav ul {
 	display: flex;
-
 	justify-content: right;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 #main-nav li {
 	padding: 1rem 1.5rem;
@@ -193,6 +197,14 @@ video {
 #logo {
 	width: 80px;
 	height: 80px;
+	z-index: 1;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+#header-home {
+	margin-top: 0;
 }
 
 .header-content {
@@ -366,6 +378,10 @@ video {
 	border-color: #17aef0;
 }
 
+.section-title {
+	margin: 90px;
+}
+
 #contact-a .text-fields {
 	display: grid;
 	grid-template-areas:
@@ -423,9 +439,4 @@ video {
 .countdown-middle > h4 {
 	text-align: center;
 	margin-top: 20px;
-}
-
-#countdown-timer {
-	text-align: center;
-	font-size: 7rem;
 }

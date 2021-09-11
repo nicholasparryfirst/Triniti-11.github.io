@@ -1,0 +1,33 @@
+@media only screen and (max-width: 600px) {
+	#main-nav li a {
+		font-size: 14px;
+	}
+
+	#main-footer {
+		margin-top: 240px;
+	}
+
+	.btn-light {
+		margin: 3rem 0.5rem;
+	}
+
+	.gallery {
+		margin: auto;
+		padding: 0 10px 010px;
+	}
+
+	.social {
+		display: flex;
+		margin-left: 25%;
+	}
+
+	.bio-img {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#main-footer {
+		margin-top: 340px;
+	}
+}
